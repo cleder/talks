@@ -10,3 +10,7 @@
 - [Awesome Python Typing](https://github.com/typeddjango/awesome-python-typing)
 - [Awesome Python Resources for Testing](https://github.com/cleder/awesome-python-testing)
 - [Awesome PyTest](https://github.com/augustogoulart/awesome-pytest)
+
+# Slides
+
+[A Tale of Two Kitchens](https://github.com/cleder/ep2022/blob/main/sides.pdf) Hypermodernizing Your Codebase.
