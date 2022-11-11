@@ -21,3 +21,6 @@
 [A Tale of Two Kitchens](https://github.com/cleder/ep2022/blob/main/slides.pdf) Hypermodernizing Your Codebase.
 
 [Recording](https://youtu.be/klFVOqSdM4o?t=7741)
+
+# Links
+[Type Annotation via Automated Refactoring](https://medium.com/building-carta/type-annotation-via-automated-refactoring-fd8edfe123d4)
