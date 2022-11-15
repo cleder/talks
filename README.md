@@ -20,7 +20,9 @@
 
 [A Tale of Two Kitchens](https://github.com/cleder/ep2022/blob/main/slides.pdf) Hypermodernizing Your Codebase.
 
-[Recording: A Tale of two Kitchens, hyper modernizing your codebase - presented by Christian Ledermann](https://youtu.be/uwmQgCrCh2s)
+# Recording
+
+[A Tale of two Kitchens, hyper modernizing your codebase, EuroPython 2022](https://youtu.be/uwmQgCrCh2s)
 
 # Related Talks
 
@@ -34,7 +36,7 @@
 [Property-based testing the Python way - presented by Emma Saroyan](https://youtu.be/EQjZgwufkYU)
 [Managing the code quality of your project. Leave the past behind: Focus on new code - Andrea Guarino](https://youtu.be/KK2GZFZ9_uA)
 [Protocols - Static duck typing for decoupled code - presented by Ran Zvi](https://youtu.be/adxG_7bBy1w)
-[`typing.Protocol`: type hints as Guido intended - presented by Luciano Ramalho](https://youtu.be/0_IQoxBFepw)
+[typing.Protocol: type hints as Guido intended - presented by Luciano Ramalho](https://youtu.be/0_IQoxBFepw)
 
 
 # Further Readings
