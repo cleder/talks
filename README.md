@@ -20,7 +20,28 @@
 
 [A Tale of Two Kitchens](https://github.com/cleder/ep2022/blob/main/slides.pdf) Hypermodernizing Your Codebase.
 
-[Recording](https://youtu.be/klFVOqSdM4o?t=7741)
+[Recording: A Tale of two Kitchens, hyper modernizing your codebase - presented by Christian Ledermann](https://youtu.be/uwmQgCrCh2s)
 
-# Links
+# Related Talks
+
+[EuroPython 2022](https://ep2022.europython.eu/) featured related talks about tools and techniques I only touched on in my talk.
+
+[Clean Architectures in Python - presented by Leonardo Giordani](https://youtu.be/C7MRkqP5NRI)
+[Automate cleaning code in few easy steps! - presented by Ester](https://youtu.be/7_FyRR3yN-k)
+[Automated Refactoring Large Python Codebases - presented by Jimmy Lai](https://youtu.be/ouDnaZxZKkc)
+[Lint All the Things! - presented by Luke Lee](https://youtu.be/9psDYv4kVvE)
+[Scalpel: The Python Static Analysis Framework - presented by Jiawei Wang](https://youtu.be/KNR1ppKTu2Q)
+[Property-based testing the Python way - presented by Emma Saroyan](https://youtu.be/EQjZgwufkYU)
+[Managing the code quality of your project. Leave the past behind: Focus on new code - Andrea Guarino](https://youtu.be/KK2GZFZ9_uA)
+[Protocols - Static duck typing for decoupled code - presented by Ran Zvi](https://youtu.be/adxG_7bBy1w)
+[`typing.Protocol`: type hints as Guido intended - presented by Luciano Ramalho](https://youtu.be/0_IQoxBFepw)
+
+
+# Further Readings
+
 [Type Annotation via Automated Refactoring](https://medium.com/building-carta/type-annotation-via-automated-refactoring-fd8edfe123d4)
+
+# Closing Remarks
+
+This is a git repository, treat it as one.
+If you have questions, corrections or additions do not hesitate to create an issue or a pull request ;-)
