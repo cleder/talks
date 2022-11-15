@@ -1,3 +1,12 @@
+# A Tale of two Kitchens, hyper modernizing your codebase.
+
+When starting a new python project, the “hypermodern” python ‘template’ is a popular choice. Its style is opinionated and strict, and it brings a consistent style and today's best practices. How do I bring my legacy codebase up to this standard?
+
+## Summary
+A consistent style and standard and the consistent use of the same tools in all your code, makes it easier to reason about, reduces context switching, thus reducing waste (in the [LEAN](https://en.wikipedia.org/wiki/Lean_IT) sense). A clean environment is good for your health and safety, enabling you to deliver quality faster.
+
+This talk goes deeper into how to modernize your legacy codebase to reduce your technical debt, to make it easier for you to tackle the real challenges without ever having to discuss a style guide again. It will provide tips, tricks and tools to make your “hypermodernization” effort as smooth and easy as possible.
+
 # Hypermodern Python
 
 > The most important thing I have done as a programmer in recent years is to aggressively pursue static code analysis.  Even more valuable than the hundreds of serious bugs I have prevented with it is the change in mindset about the way I view software reliability and code quality.
@@ -22,7 +31,7 @@
 
 # Recording
 
-[A Tale of two Kitchens, hyper modernizing your codebase, EuroPython 2022](https://youtu.be/uwmQgCrCh2s)
+[EuroPython 2022](https://youtu.be/uwmQgCrCh2s)
 
 # Related Talks
 
@@ -46,4 +55,4 @@
 # Closing Remarks
 
 This is a git repository, treat it as one.
-If you have questions, corrections or additions do not hesitate to create an issue or a pull request ;-)
+If you have questions, corrections or additions do not hesitate to join the [discussion](https://github.com/cleder/ep2022/discussions) or create an [issue](https://github.com/cleder/ep2022/issues) or a pull request ;-)
