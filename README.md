@@ -22,8 +22,14 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 - [Awesome Python Code Formatters](https://github.com/life4/awesome-python-code-formatters)
 - [Awesome Flake8 Extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions)
 - [Awesome Python Typing](https://github.com/typeddjango/awesome-python-typing)
-- [Awesome Python Resources for Testing](https://github.com/cleder/awesome-python-testing)
+- [Awesome Python Testing](https://github.com/cleder/awesome-python-testing)
 - [Awesome PyTest](https://github.com/augustogoulart/awesome-pytest)
+
+## Security
+
+- [Bandit](https://github.com/PyCQA/bandit) is a tool designed to find common security issues in Python code.
+- [GuardDog](https://github.com/datadog/guarddog) is a CLI tool that allows to identify malicious PyPI packages.
+- [Safety](https://github.com/pyupio/safety) checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected.
 
 # Slides
 
@@ -51,8 +57,9 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 # Further Readings
 
 [Type Annotation via Automated Refactoring](https://medium.com/building-carta/type-annotation-via-automated-refactoring-fd8edfe123d4)
+[Tips for clean code in Python](https://pybit.es/articles/tips-for-clean-code-in-python/)
 
 # Closing Remarks
 
 This is a git repository, treat it as one.
-If you have questions, corrections or additions do not hesitate to join the [discussion](https://github.com/cleder/ep2022/discussions) or create an [issue](https://github.com/cleder/ep2022/issues) or a pull request ;-)
+If you have questions, corrections or additions do not hesitate to join the [discussion](https://github.com/cleder/ep2022/discussions), create an [issue](https://github.com/cleder/ep2022/issues) or a pull request ;-)
