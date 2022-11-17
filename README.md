@@ -56,8 +56,10 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 
 # Further Readings
 
-[Type Annotation via Automated Refactoring](https://medium.com/building-carta/type-annotation-via-automated-refactoring-fd8edfe123d4)
-[Tips for clean code in Python](https://pybit.es/articles/tips-for-clean-code-in-python/)
+- [Type Annotation via Automated Refactoring](https://medium.com/building-carta/type-annotation-via-automated-refactoring-fd8edfe123d4)
+- [Tips for clean code in Python](https://pybit.es/articles/tips-for-clean-code-in-python/)
+- [Tools for rewriting Python code](https://lukeplant.me.uk/blog/posts/tools-for-rewriting-python-code/)
+- [Static Analysis at Scale: An Instagram Story](https://instagram-engineering.com/static-analysis-at-scale-an-instagram-story-8f498ab71a0c)
 
 # Closing Remarks
 
