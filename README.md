@@ -16,7 +16,7 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 
 - [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
 - [Hypermodern Python Cookiecutter](https://github.com/cjolowicz/cookiecutter-hypermodern-python)
-
+- [Hypermodern Python Tooling](https://www.oreilly.com/library/view/hypermodern-python-tooling/9781098139575/)
 # Tools
 
 - [Awesome Python Code Formatters](https://github.com/life4/awesome-python-code-formatters)
