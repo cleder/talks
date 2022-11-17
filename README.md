@@ -56,6 +56,7 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 
 # Further Readings
 
+- [What is Code Quality?](https://refactoring.fm/p/what-is-code-quality) Lessons learned in over 10 years of helping engineering teams create high quality software.
 - [Type Annotation via Automated Refactoring](https://medium.com/building-carta/type-annotation-via-automated-refactoring-fd8edfe123d4)
 - [Tips for clean code in Python](https://pybit.es/articles/tips-for-clean-code-in-python/)
 - [Tools for rewriting Python code](https://lukeplant.me.uk/blog/posts/tools-for-rewriting-python-code/)
