@@ -29,7 +29,7 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 
 - [Bandit](https://github.com/PyCQA/bandit) is a tool designed to find common security issues in Python code.
 - [GuardDog](https://github.com/datadog/guarddog) is a CLI tool that allows to identify malicious PyPI packages.
-- [Safety](https://github.com/pyupio/safety) checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected.
+- [Safety](https://github.com/pyupio/safety) checks Python dependencies for known security vulnerabilities and suggests the proper remediation for vulnerabilities detected.
 
 # Slides
 
@@ -61,6 +61,14 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 - [Tips for clean code in Python](https://pybit.es/articles/tips-for-clean-code-in-python/)
 - [Tools for rewriting Python code](https://lukeplant.me.uk/blog/posts/tools-for-rewriting-python-code/)
 - [Static Analysis at Scale: An Instagram Story](https://instagram-engineering.com/static-analysis-at-scale-an-instagram-story-8f498ab71a0c)
+
+# Talk is Cheap, Show me the Code
+
+While most of my 'hypermodernizing' was done on proprietary code, there is a good example in
+[pygeoif](https://github.com/cleder/pygeoif), which was brought up to the standard 10 years
+after the 0.1 version was released. The [diff](https://github.com/cleder/pygeoif/compare/0.6...main)
+is not very helpful, almost every line was touched in the end, but you can compare the
+[version 0.6](https://github.com/cleder/pygeoif/tree/0.6) to the current implementation.
 
 # Closing Remarks
 
