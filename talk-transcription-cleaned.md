@@ -75,15 +75,17 @@ Tests need a little love too when we are hyper modernizing our code. Writing uni
 
 # Upgrades
 
-Upgrades on a regular basis are made easy with PyUpgrade, which ensures your Python syntax is up-to-date. There are also tools for specific frameworks, such as Django-Upgrade and Django-Codemod, which can convert Django from version 1.11 up to 4.0. If you're working with Django, these tools can be helpful in making the necessary changes. Alternatively, you can create your own code modifications tool using LibCST or CST for Contract Concrete Syntax Tree
-Refactoring as a Service.
+Upgrades on a regular basis are made easy with PyUpgrade, which ensures your Python syntax is up-to-date. There are also tools for specific frameworks, such as Django-Upgrade and Django-Codemod, which can convert Django from version 1.11 up to 4.0. If you're working with Django, these tools can be helpful in making the necessary changes. Alternatively, you can create your own code modifications tool using LibCST (CST stands for Contract Concrete Syntax Tree)
+## Refactoring as a Service.
 Sourcery is one of the sponsors at this event and is a great tool for small refactorings. Sonar Cloud is also in the same space and can be found downstairs. For test coverage, Coverage.io is a great software that can highlight pull requests and show what is covered and what is not.
 
 # Refactoring
 
-Refactoring is about making code more maintainable, extensible, and modular. It involves finding patterns in the code to avoid repetition, following the SOLID principles of single responsibility, open-closed, Liskov substitution, interface segregation, and dependency inversion, and considering the CUPID principles from the lightning talk "Why Every Single SOLID Principle is Wrong". Ultimately, principles are opinions, and perfect is the opposite of done.
+Real refactoring is about creating code that is maintainable, extensible, and modular.  It involves finding patterns in the code to avoid repetition. This is done by following certain principles such as the Don't Repeat Yourself (DRY) principle, the SOLID principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) and the CUPID principles (from the lightning talk "Why Every Single SOLID Principle is Wrong"). These principles are not laws, but rather guidelines to help create better code.
 
-# Take Aways
+When refactoring code, it is important to remember that "perfect is the opposite of done". Refactoring is an iterative process, and there may be times where code is not perfect, but is still useful and can be improved upon over time. It is important to focus on creating code that is maintainable and extensible, rather than striving for perfection.
+
+# Take Away
 
 In summary, we discussed Hyper Modern Python, why we should strive to make our code as Hyper Modern as possible, and some tips and tricks for modernizing legacy code. We also touched on refactoring in general. Ultimately, the takeaway is that "done is better than perfect" - even for talks! Thank you for listening.
 
@@ -91,3 +93,7 @@ In summary, we discussed Hyper Modern Python, why we should strive to make our c
 Q: If I have the worst legacy code base you've ever seen, what's one first step I can sell?
 
 A: The first thing I would do is enforce an import order. This is usually a no-brainer and nobody will want to die on that hill or argue too much about it. Additionally, I would introduce a pre-commit hook so any time a change is committed, it will be checked and corrected.
+
+# Notes:
+
+GPT interprets the acronym CUPID as (Composability, Uniformity, Predictability, Idempotence, Discoverability)
