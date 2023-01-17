@@ -81,9 +81,13 @@ Sourcery is one of the sponsors at this event and is a great tool for small refa
 
 # Refactoring
 
-
 Refactoring is about making code more maintainable, extensible, and modular. It involves finding patterns in the code to avoid repetition, following the SOLID principles of single responsibility, open-closed, Liskov substitution, interface segregation, and dependency inversion, and considering the CUPID principles from the lightning talk "Why Every Single SOLID Principle is Wrong". Ultimately, principles are opinions, and perfect is the opposite of done.
 
 # Take Aways
 
 In summary, we discussed Hyper Modern Python, why we should strive to make our code as Hyper Modern as possible, and some tips and tricks for modernizing legacy code. We also touched on refactoring in general. Ultimately, the takeaway is that "done is better than perfect" - even for talks! Thank you for listening.
+
+# Questions
+Q: If I have the worst legacy code base you've ever seen, what's one first step I can sell?
+
+A: The first thing I would do is enforce an import order. This is usually a no-brainer and nobody will want to die on that hill or argue too much about it. Additionally, I would introduce a pre-commit hook so any time a change is committed, it will be checked and corrected.
