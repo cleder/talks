@@ -11,8 +11,9 @@ The idea stems from an article series with the same title by Claudio Jolowicz an
 
 The title of the talk is 'A tale of two kitchens', what do I mean by that?
 
-Kitchen one is tidy and clean, sparkling steel pots, utensils carefully stored away on hooks on the wall, cupboards with well organized utensils and spices, high tech kitchen gadgets in immaculate white.
-Kitchen two is messy, sink overflowing with unwashed dishes, dirty dishes with rests of food on the working surface next to the sink, dirty pots and pans partially blackened with dirt on the working surfaces and stove, scraps of food lying around.
+Kitchen one is messy, sink overflowing with unwashed dishes, dirty dishes with rests of food on the working surface next to the sink, dirty pots and pans partially blackened with dirt on the working surfaces and stove, scraps of food lying around.
+
+Kitchen two is tidy and clean, sparkling steel pots, utensils carefully stored away on hooks on the wall, cupboards with well organized utensils and spices, high tech kitchen gadgets in immaculate white.
 
 Which kitchen do you think is better in terms of security, health and safety, where would you deliver faster, deliver, higher quality out of.
 If you had to work in those kitchens where would you get a better job satisfaction and personal growth?
@@ -22,7 +23,7 @@ I just wanted to see an entire auditorium doing a 'Mexican La Ola Wave' :-D
 In conclusion that  in a game of would you rather, kitchen one is the unanimous winner.
 
 But in reality some of us work in a kitchen that looks more like this:
-A messy Kitchen with fire-damage, sink overflowing with unwashed dishes,  dirty dishes with rests of food, mould growing on them, dirty, sooty, mouldy pots and pans on the working surfaces and stove, some trash lying around, a blazing grease-fire in a big pot on the stove, a fireman with a hose trying to extinguish the fire.
+A messy Kitchen with fire-damage, sink overflowing with unwashed dishes, dirty dishes with rests of food, mould growing on them, dirty, sooty, mouldy pots and pans on the working surfaces and stove, some trash lying around, a blazing grease-fire in a big pot on the stove, a fireman with a hose trying to extinguish the fire.
 
 
 Let's talk about why we  want to clean up our code base and make it hyper modern.
@@ -71,23 +72,53 @@ We want our code to be hyper-modern, so using Mypy is a great way to ensure that
 
 # Tests
 
-Tests need a little love too when we are hyper modernizing our code. Writing unit tests still makes the code much more readable and precise, and Pytestify and Unittest2Pytest are both tools to convert old unit tests into Pytests. Hyper Modern Python's article series doesn't have a strong opinion on testing, apart from Pytest. Hypothesis enables property-based testing, meaning it generates lots of test data and throws it at the functions to see what comes out. There's even a tool called Ghostwriter in Hypothesis that can write Hypothesis tests based on function signatures. For working with web APIs, there's SchemaThesis, which is built on Hypothesis. It generates tests and data based on an OpenAPI or GraphQL specification and can be used as a service without any coding knowledge. But who is watching the watchmen? How do you know that your tests are actually testing what you think they are, and that 100% test coverage is really enough? Mutmut, a mutation testing tool, can help answer this. It runs all of the tests and then changes something in the code to see if the test breaks. If it passes, that's a bad thing, meaning the test didn't test for that. However, using Mutmut takes more time than MonkeyType, and the tests can take even longer to run - so you need to be specific about what you want to test.
+Tests need a little love too when we are hyper modernizing our code.
+Writing unit tests still makes the code much more readable and precise, and `Pytestify` and `Unittest2Pytest` are both tools to convert old unit tests into Pytests.
+The Hyper Modern Python's article series doesn't have a strong opinion on testing, apart from `Pytest`.
+
+The Hypothesis library is a property-based testing framework for Python that allows you to write tests that automatically generate input data based on certain properties or invariants of your code. Some of the advantages of using Hypothesis include:
+- Comprehensive testing: By generating a wide range of input data, Hypothesis can help you find edge cases and unexpected behaviors that might not be caught by traditional, manually written tests.
+- Reduced test maintenance: Since Hypothesis tests are based on properties of the code rather than specific input data, they are less likely to break when the code is refactored or changed.
+- Increased confidence in code: By testing a wide range of inputs and edge cases, Hypothesis can give you more confidence that your code is correct and behaves as expected.
+- Easy to use: Hypothesis is easy to integrate into existing test suites and has a simple, intuitive API.
+- Easy debugging: In case of test failure, the Hypothesis library provides an easy way to reproduce the failing test case, which can help debugging the issue.
+- Support for different types: Hypothesis supports different types of input, including integers, strings, lists, and dictionaries.
+Using Hypothesis can help you write more comprehensive and robust tests that are less prone to break when your code changes and provides an easy way to debug test failures.
+Writing tests with Hypothesis frees you from the tedium of deciding on and writing out specific inputs to test.
+The `hypothesis.extra.ghostwriter` module can write your test functions for you!
+The idea is to provide an easy way to start property-based testing, and a seamless transition to more complex test code - because ghostwritten tests are source code that you could have written for yourself.
+
+For working with web APIs, there's `SchemaThesis`, which is built on `Hypothesis`.
+It generates tests and data based on an OpenAPI or GraphQL specification and can be used as a service without any coding knowledge.
+
+But who is watching the watchmen?
+How do you know that your tests are actually testing what you think they are, and that 100% test coverage is really enough? Mutmut, a mutation testing tool, can help answer this. It runs all of the tests and then changes something in the code to see if the test breaks. If it passes, that's a surviving mutant, which is a bad thing, meaning the test didn't test for that. However, using Mutmut takes more time than MonkeyType, and the tests can take even longer to run - so you need to be specific about what you want to test.
 
 # Upgrades
 
-Upgrades on a regular basis are made easy with PyUpgrade, which ensures your Python syntax is up-to-date. There are also tools for specific frameworks, such as Django-Upgrade and Django-Codemod, which can convert Django from version 1.11 up to 4.0. If you're working with Django, these tools can be helpful in making the necessary changes. Alternatively, you can create your own code modifications tool using LibCST (CST stands for Contract Concrete Syntax Tree)
+Upgrades on a regular basis are made easy with PyUpgrade, which ensures your Python syntax is up-to-date.
+There are also tools for specific frameworks, such as Django-Upgrade and Django-Codemod, which can convert Django from version 1.11 up to 4.0.
+If you're working with Django, these tools can be helpful in making the necessary changes. Alternatively, you can create your own code modifications tool using LibCST (CST stands for Contract Concrete Syntax Tree)
 ## Refactoring as a Service.
-Sourcery is one of the sponsors at this event and is a great tool for small refactorings. Sonar Cloud is also in the same space and can be found downstairs. For test coverage, Coverage.io is a great software that can highlight pull requests and show what is covered and what is not.
+Sourcery is one of the sponsors at this event and is a great tool for small refactorings. Sonar Cloud is also in the same space and can be found downstairs.
+For test coverage, Coverage.io is a great software that can highlight pull requests and show what is covered and what is not.
 
 # Refactoring
 
-Real refactoring is about creating code that is maintainable, extensible, and modular.  It involves finding patterns in the code to avoid repetition. This is done by following certain principles such as the Don't Repeat Yourself (DRY) principle, the SOLID principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) and the CUPID principles (from the lightning talk "Why Every Single SOLID Principle is Wrong"). These principles are not laws, but rather guidelines to help create better code.
+Real refactoring is about creating code that is maintainable, extensible, and modular.
+It involves finding patterns in the code to avoid repetition.
+This is done by following certain principles such as the Don't Repeat Yourself (DRY) principle, the SOLID principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) and the CUPID principles (from the lightning talk "Why Every Single SOLID Principle is Wrong").
+These principles are not laws, but rather guidelines to help create better code.
 
-When refactoring code, it is important to remember that "perfect is the opposite of done". Refactoring is an iterative process, and there may be times where code is not perfect, but is still useful and can be improved upon over time. It is important to focus on creating code that is maintainable and extensible, rather than striving for perfection.
+When refactoring code, it is important to remember that "perfect is the opposite of done". Refactoring is an iterative process, and there may be times where code is not perfect, but is still useful and can be improved upon over time.
+It is important to focus on creating code that is maintainable and extensible, rather than striving for perfection.
 
 # Take Away
 
-In summary, we discussed Hyper Modern Python, why we should strive to make our code as Hyper Modern as possible, and some tips and tricks for modernizing legacy code. We also touched on refactoring in general. Ultimately, the takeaway is that "done is better than perfect" - even for talks! Thank you for listening.
+In summary, we discussed Hyper Modern Python, why we should strive to make our code as Hyper Modern as possible, and some tips and tricks for modernizing legacy code.
+We also touched on refactoring in general.
+Ultimately, the takeaway is that "done is better than perfect" - even for talks!
+Thank you for listening.
 
 # Questions
 Q: If I have the worst legacy code base you've ever seen, what's one first step I can sell?
