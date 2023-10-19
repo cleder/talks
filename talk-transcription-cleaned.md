@@ -13,7 +13,7 @@ The title of the talk is 'A tale of two kitchens', what do I mean by that?
 
 Kitchen one is messy, sink overflowing with unwashed dishes, dirty dishes with rests of food on the working surface next to the sink, dirty pots and pans partially blackened with dirt on the working surfaces and stove, scraps of food lying around.
 
-Kitchen two is tidy and clean, sparkling steel pots, utensils carefully stored away on hooks on the wall, cupboards with well organized utensils and spices, high tech kitchen gadgets in immaculate white.
+Kitchen two is tidy and clean, sparkling steel pots, utensils carefully stored away on hooks on the wall, cupboards with well organized utensils and spices, high tech kitchen gadgets in immaculate white, a stainless steel pot bubbling .
 
 Which kitchen do you think is better in terms of security, health and safety, where would you deliver faster, deliver, higher quality out of.
 If you had to work in those kitchens where would you get a better job satisfaction and personal growth?
