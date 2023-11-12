@@ -1,5 +1,7 @@
 # A Tale of two Kitchens, hyper modernizing your codebase.
 
+You can read the elaborate version of this as a [blog post](https://dev.to/ldrscke/a-tale-of-two-kitchens-hypermodernizing-your-python-code-base-3jnh)
+
 When starting a new python project, the “hypermodern” python ‘template’ is a popular choice. Its style is opinionated and strict, and it brings a consistent style and today's best practices. How do I bring my legacy codebase up to this standard?
 
 ## Summary
