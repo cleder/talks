@@ -38,6 +38,10 @@ This talk goes deeper into how to modernize your legacy codebase to reduce your 
 
 [A Tale of Two Kitchens](https://github.com/cleder/ep2022/blob/main/slides.pdf) Hypermodernizing Your Codebase.
 
+## Blog Post
+
+[A Tale of Two Kitchens - Hypermodernizing Your Python Code Base](https://dev.to/ldrscke/a-tale-of-two-kitchens-hypermodernizing-your-python-code-base-3jnh)
+
 ## Recording
 
 [EuroPython 2022](https://youtu.be/uwmQgCrCh2s)
